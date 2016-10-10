@@ -2,7 +2,7 @@
 A python script which performs a basic network speed test and sends the results to your phone via email.
 ### What you'll need
 - Gmail
-- Phonenumber
+- Phone number
 - Speedtest-CLI installed
 
 ### How to use
@@ -10,6 +10,9 @@ Simply download the file onto your system, and substitute the missing informatio
 - Your Gmail
 - Your Gmail's password or path to a file with the password in it
 - Your phone number + carrier SMS-via-email domain
+
+Create a Cron job which executes the script
+Done! The script will run the speedtest and send you a text with the results as often as you want it to.
 
 ###Here is a list of domains for some of the major cell carriers:
 | Carrier | Domain + Format |
